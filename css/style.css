@@ -1,0 +1,119 @@
+body{
+    background: url('../assets/images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width:430px;
+    height: 450px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.brand a{
+     margin-top: 0px;
+    font-size:60px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(160, 0, 52, 0.9);
+    font-family: 'Vollkorn', serif;
+    text-decoration: none;
+}
+
+.brandDesc{
+    margin-top: 0px;
+    text-align: center;
+    color: rgba(116, 116, 116, 0.81);
+}
+.brandDesc h4{
+    margin-top: 0px !important;
+}
+input[type="text"], input[type="password"],input[type="email"] {
+
+    height: 45px;
+    width:300px;
+    margin-bottom: 20px;
+    background-color: #ededed;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(210, 210, 210, 0.9);
+    margin: 10px;
+    color: rgb(255, 246, 254);
+    font-weight:bold;
+    color: rgba(62, 62, 62, 0.78);
+
+}
+
+.form-input:before{
+    position: absolute;
+    padding-top: 5px;
+
+}
+.btn-login{
+    padding: 15px 25px;
+    color: #fff;
+    width:300px;
+    background-color: #2ecc71;
+    border: none;
+   font-weight: bold;
+    border-radius: 2px;
+
+}
+#forgotpassword{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+    margin: 8px;
+    margin-right: 60px;
+}
+
+#forgotpassword a:hover{
+    color: coral;
+    font-weight: bold;
+}
+#accountExists{
+    margin: 8px;
+}
+
+.container_register{
+    width:700px;
+    height: 480px;
+    text-align: center;
+   background-color: #ffffff;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#feedback{
+   color: rgba(255, 32, 11, 0.91);
+   font-size: 16px;
+
+}
+#feedbackRegister{
+    color: rgba(255, 32, 11, 0.91);
+    font-size: 15px;
+
+}
+.alert-warning{
+    margin: 0px;
+    padding: 12px;
+    border-radius: 0px;
+} 
+
+ .remember{
+    float: left;
+    margin-left: 56px;
+    margin-top:5px;
+    color: rgba(116, 116, 116, 0.81);
+ }
